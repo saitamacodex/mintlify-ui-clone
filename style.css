@@ -25,6 +25,7 @@ header {
   position: fixed;
   width: 100%;
   padding: 1rem;
+  /* background: rgba(255, 255, 255, 0.1); */
 }
 
 .logo {
@@ -37,7 +38,7 @@ header {
 }
 
 .nav-container {
-  width: 66rem;
+  width: 67rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -99,6 +100,7 @@ header {
   background-size: cover;
   background-position: center;
   padding-top: 7rem;
+  width: 100%;
 }
 
 .hero-div {
@@ -106,6 +108,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 67rem;
+  margin: 0 auto;
 }
 
 .hero-div a {
@@ -196,4 +200,8 @@ header {
   padding: 9px 12px;
   font-size: 1rem;
   border-radius: 2.5rem;
+}
+
+.h-img img {
+  border-radius: 20px;
 }
