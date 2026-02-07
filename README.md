@@ -13,3 +13,5 @@ A frontend UI clone inspired by Mintlify, built using pure HTML and CSS.
 
 ### 📌 Disclaimer
 This project is for educational purposes only and is not affiliated with Mintlify.
+
+### Live preview : https://saitamacodex.github.io/mintlify-ui-clone/
