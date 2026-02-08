@@ -56,12 +56,12 @@ header {
   text-decoration: none;
   color: lab(100 0 0);
   font-size: 1rem;
-  padding: 4px 12px;
+  padding: 6px 12px;
 }
 
 .nav-items a:hover {
-  border: 1px solid #9b9898;
-  border-radius: 8px;
+  border-radius: 20px;
+  background-color: rgba(221, 219, 217, 0.16);
 }
 
 .sales-button {
@@ -236,7 +236,7 @@ header {
 .built-container {
   /* border: 1px solid red; */
   width: 67rem;
-  margin: 0 auto;
+  margin: 0 auto 9rem;
 }
 
 .built-text-container {
