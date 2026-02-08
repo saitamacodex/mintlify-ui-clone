@@ -370,7 +370,7 @@ header {
   /* border: 1px solid yellow; */
   display: flex;
   justify-content: space-between;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .enp-cta div {
@@ -419,4 +419,28 @@ header {
 
 .enp-cta button:hover {
   background-color: #d8d5d5;
+}
+
+.enp-feature {
+  /* border: 1px solid red; */
+  margin: 2rem 0;
+  padding-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.enp-feature h4 {
+  margin: 2rem 0 1rem;
+  color: lab(100 0 0);
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-wrap: balance;
+}
+
+.enp-feature p {
+  color: lab(100% 0 0/0.7);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-wrap: balance;
+  font-weight: 300;
 }
