@@ -485,9 +485,9 @@ header {
   text-wrap: balance;
 }
 
-.enp-img-ct p {
+.enp-img-ct > p {
   color: #ffff;
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
@@ -502,6 +502,7 @@ header {
 #enp_section_p {
   text-transform: none;
   margin-top: 3rem;
+  font-size: 1rem;
 }
 
 #enp_section_p::after {
