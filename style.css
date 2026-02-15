@@ -679,3 +679,66 @@ header {
 .box-banner-1 {
   border-right: 1px solid lab(100% 0.01 -0.01 / 0.066);
 }
+
+/* footer section */
+footer {
+  background-color: lab(100% 0 0/0.05);
+}
+
+.footer-section {
+  max-width: 67rem;
+  margin: 0 auto;
+}
+
+.ft-social-mediad a > img {
+  width: 30px;
+}
+
+.ft-box-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 32px 24px;
+  border: 1px solid lab(100% 0.01 -0.01 / 0.066);
+}
+
+.ft-social-mediad {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.ft-box-2 {
+  width: 100%;
+  padding: 48px 32px 72px;
+  border: 1px solid lab(100% 0.01 -0.01 / 0.066);
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.ft-box-item h3 {
+  color: lab(100% 0 0/0.5);
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: 400;
+  margin-bottom: 4px;
+  padding: 6px 12px;
+}
+
+.ft-box-item ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: start;
+  align-items: start;
+}
+
+.ft-box-item li {
+  padding: 6px 12px;
+}
+
+.ft-box-item li > a {
+  color: lab(100% 0 0);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
