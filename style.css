@@ -742,3 +742,42 @@ footer {
   font-size: 0.875rem;
   text-decoration: none;
 }
+
+.ft-box-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px 96px;
+  border: 1px solid lab(100% 0.01 -0.01 / 0.066);
+}
+
+.ft-box-3 div:last-child {
+  display: flex;
+  gap: 1rem;
+  background-color: lab(100% 0 0/0.05);
+  padding: 5px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.ft-box-3 div:first-child {
+  color: lab(100% 0 0);
+  background-color: lab(100% 0 0/0.05);
+  padding: 6px 14px;
+  font-size: 0.813rem;
+  border-radius: 3rem;
+}
+
+.ft-box-3 div:first-child::before {
+  content: "⌾";
+  font-size: 15px;
+  color: lab(79.9844% -59.6292 22.5096);
+  margin-right: 6px;
+}
+
+.copy-right {
+  color: lab(100 0 0/0.6);
+  font-size: 0.813rem;
+}
+
+/* end of the line */
