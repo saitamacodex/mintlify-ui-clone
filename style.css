@@ -560,3 +560,7 @@ header {
   max-width: 38rem;
   text-align: center;
 }
+
+.customer-banner img {
+  width: 100%;
+}
