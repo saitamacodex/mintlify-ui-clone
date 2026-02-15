@@ -520,3 +520,43 @@ header {
 .enp-brand-box img {
   height: 4.063rem;
 }
+
+/* customer section */
+.customer-section {
+  padding: 4.5rem 0;
+  /* border: 1px solid red; */
+  max-width: 100%;
+}
+
+.customer-info {
+  max-width: 67rem;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.customer-info p:first-child {
+  color: lab(79.9844% -59.6292 22.5096);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.038rem;
+  font-weight: 400;
+}
+
+.customer-info h2 {
+  font-size: 2.5rem;
+  color: lab(100 0 0);
+  font-weight: 500;
+}
+
+.customer-info p:last-child {
+  color: lab(100% 0 0 / 0.7);
+  line-height: 1.4;
+  max-width: 38rem;
+  text-align: center;
+}
