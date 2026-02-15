@@ -524,7 +524,6 @@ header {
 /* customer section */
 .customer-section {
   padding: 4.5rem 0;
-  /* border: 1px solid red; */
   max-width: 100%;
 }
 
@@ -562,5 +561,63 @@ header {
 }
 
 .customer-banner img {
-  width: 100%;
+  max-width: 100%;
+}
+
+/* documentation winning section */
+.docs-win-section {
+  padding: 7.5rem 0.25rem;
+  /* border: 1px solid red; */
+  max-width: 100%;
+}
+
+.docs-win-box {
+  /* border: 1px solid blue; */
+  max-width: 67rem;
+  margin: 0 auto;
+  color: #f1eaea;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.docs-win-box > h3 {
+  font-size: 2.5rem;
+  color: lab(100 0 0);
+  font-weight: 500;
+  max-width: 600px;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.docs-win-box .win-p {
+  color: lab(100 0 0);
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.box-button {
+  margin-top: 3rem;
+}
+
+.box-button #white {
+  padding: 0.75rem 2rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.box-button #black {
+  padding: 0.75rem 2rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid lab(100% 0.01 -0.01 / 0.133);
+  cursor: pointer;
+  color: lab(100 0 0);
+  background-color: lab(2.42579% -0.165291 -0.470081);
 }
