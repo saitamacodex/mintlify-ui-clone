@@ -8,6 +8,8 @@ A frontend UI clone inspired by Mintlify, built using pure HTML and CSS.
 - Clean and modern UI design
 - Built with pure HTML and CSS (no frameworks)
 
+#### Desktop-only implementation 
+
 ### 🛠 Tech Stack
 
 - HTML5
